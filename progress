@@ -1,0 +1,15 @@
+import Image from "next/image";
+
+export default function Home() {
+  return (
+    <>
+      <main className="min-h-screen bg-black text-white"></main>
+       {/* Navbar */}
+        <header className="flex items-center justify-between px-8 py-4">
+        <h1 className="text-2xl font-bold">MAPMYFITNESS</h1>
+        <nav className="space-x-8 text-sm font-semibold">
+          <a href="#" className="hover:text-gray-300">Home</a>
+          <a href="#" className="hover:text-gray-300">Progress</a>
+          <a href="#" className="hover:text-gray-300">About</a>
+          <a href="#" className="hover:text-gray-300">Contact</a>
+        </nav>
