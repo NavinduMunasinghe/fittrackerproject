@@ -13,3 +13,4 @@ export default function Home() {
           <a href="#" className="hover:text-gray-300">About</a>
           <a href="#" className="hover:text-gray-300">Contact</a>
         </nav>
+fg
