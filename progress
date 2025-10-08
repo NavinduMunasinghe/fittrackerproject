@@ -13,4 +13,52 @@ export default function Home() {
           <a href="#" className="hover:text-gray-300">About</a>
           <a href="#" className="hover:text-gray-300">Contact</a>
         </nav>
-fg
+ <div className="space-x-4">
+          <a href="#" className="text-sm hover:underline">Log In</a>
+          <a
+            href="#"
+            className="bg-white text-black px-4 py-2 font-bold rounded hover:bg-gray-200"
+          >
+            Sign Up
+          </a>
+        </div>
+      </header>
+    {/* Hero Section */}
+      <section
+        className="relative flex items-center justify-center min-h-[80vh] bg-cover bg-center px-8"
+        style={{ backgroundImage: "url('/fitness-bg.jpg')" }}
+      >
+        <div className="absolute inset-0 bg-black/50" />
+        <div className="relative z-10 max-w-xl text-center">
+          <h2 className="text-5xl font-extrabold mb-6">REACH YOUR BEST</h2>
+          <p className="text-lg text-gray-200 mb-8">
+            The top-rated fitness app with 90M+ users, MapMyFitness keeps you
+            safe and motivated with live tracking, personalized training plans,
+            mobile coaching, and performance insights. Join challenges, climb
+            leaderboards, and earn rewards that push your limits.
+          </p>
+          <a
+            href="#"
+            className="bg-white text-black px-8 py-3 font-bold rounded hover:bg-gray-200"
+          >
+            SIGN UP
+          </a>
+          <p className="mt-4 text-sm">
+            Already a member?{" "}
+            <a href="#" className="underline hover:text-gray-300">
+              Log In
+            </a>
+          </p>
+          <div className="mt-6">
+            <img
+              src="/google-play-badge.png"
+              alt="Get it on Google Play"
+              className="h-12 mx-auto"
+            />
+          </div>
+        </div>
+      </section>
+
+    </>
+  );
+}
